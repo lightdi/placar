@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.numero-placar{
+    font-size: 150px; 
+    color: #343a40;
+}
+
+.nome-equipe{
+    font-size: 80px; 
+    color: #343a40;
+}

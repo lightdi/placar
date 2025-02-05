@@ -44,9 +44,9 @@ def admin():
         placar.time2_nome = request.form['time2_nome']
         placar.time2_pontuacao = int(request.form['time2_pontuacao'])
         db.session.commit()
-        return redirect(url_for('index'))
+        #return redirect(url_for('index'))
 
     return render_template('admin.html', placar=placar)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="192.168.0.101", port=80, debug=True)
